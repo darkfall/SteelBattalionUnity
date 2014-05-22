@@ -8,13 +8,13 @@ The plugin is consist of two parts - the server that will grab data from the Ste
 
 Its not a native plugin because I want to make it more universal than Unity Pro only.
 
-##### Special Requirements
+### Special Requirements
 
 On OS X, mono runtime is required (assumed /usr/bin/mono, but you can change it in the source code [Unity/SBCController.cs]).
 
 On Windows, please follow the [tutorials](http://steelbattalionnet.codeplex.com/SourceControl/latest#readme.txt) from SteelBattalion.Net to install the requried drivers.
 
-##### How to 
+### How to 
 
 * Compile the server, a pre compiled binary for Mac OS X and Windows is provided in _Server/bin_. 
 
@@ -26,13 +26,13 @@ On Windows, please follow the [tutorials](http://steelbattalionnet.codeplex.com/
 
 * A editor script is also provided for testing.
 
-##### Notes
+### Notes
 
 * When unity crashes, the SBC server may keep running in your system. You have to kill the SBCController process manually using the Windows TaskManager or OS X activily monitor.
 
 * Currenly there are limitations dealing with button state changes. The changed event may not be captured correctly. 
 
-##### License
+### License
 
 SBC Unity. Copyright (C) 2014 Ruiwei Bu.
 
