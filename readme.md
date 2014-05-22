@@ -24,7 +24,19 @@ On Windows, please follow the [tutorials](http://steelbattalionnet.codeplex.com/
 
 * Use SBCController.instance.RunSBCServer/StopSBCServer to run/stop the SBCServer. When the server is running, it will automatically looking for SBCControllers and grabbing data from it.
 
+* Use SBCController.instance.buttonStates/joystickStates to access the controller states. 
+
 * A editor script is also provided for testing.
+
+### How to light the LEDs
+
+	SBCPacketSetLedState packet = new SBCPacketSetLedState ();
+    // which LED
+    packet.ledButton = (int)SBCLed.NightScope;
+    // 0 - 15
+    packet.intensity = 15;
+    SBCController.instance.Send (SBCUtility.Serialize (SBCPacketType.SetLedState, packet));
+
 
 ### Notes
 
