@@ -33,8 +33,8 @@ public class SBCController: TcpConnectionHandler {
 	public SBCPacketButton buttonStates;
 	public SBCPacketButton buttonStatesCache;
 	public SBCPacketJoystick joystickStates;
-    public bool connected = false;
-public string serverBinaryDir = "Mechgic/SBCController/";
+  public bool connected = false;
+  public string serverBinaryDir = "Mechgic/SBCController/";
 
 	Process serverProcess = null;
 	int receivedSBCButtonUpdate = 0;
