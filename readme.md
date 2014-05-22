@@ -2,7 +2,7 @@
 
 SBCUnity is a simple plugin to use the amazing SteelBattalion Controller within Unity3D. Its based on part of the nice [SteelBattalion.NET](http://steelbattalionnet.codeplex.com/) library written by Joseph Coutcher and the Loom script from [UnityGems](http://unitygems.com/threads/).
 
-The plugin is developed as part of the #mechgic project, which is a MOBA-like mech game based on the SteelBattalion controller and Oculus Rift VR. 
+The plugin is developed as part of the #mechgic project, which is a MOBA-like mech game based on the SteelBattalion Controller and Oculus Rift VR. 
 
 The plugin is consist of two parts - the server that will grab data from the Steelbattalion controller and the Unity3D client that will receive data from the server. 
 
